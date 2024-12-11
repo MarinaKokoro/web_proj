@@ -3,20 +3,24 @@
 }
 
 #header {
+    padding-top: 20px;
     font-size: medium;
-}
-
-.nav-link {
     color: aliceblue;
 }
+
+.nav-link, .nav-link:hover, .navbar {
+    color: aliceblue;
+    --bs-navbar-active-color:: aliceblue;
+}
+
 
 .dropdown-menu {
     border-radius: 0;
     background-color: brown;
 }
 
-@media (max-width: 992) {
+@media screen and (max-width: 992px) {
     #header {
-        background-color: darkblue;
+        background-color: #050613;
     }
 }
