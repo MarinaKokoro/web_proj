@@ -1,0 +1,22 @@
+#navbarNavDropdown {
+    margin: auto 0 !important;
+}
+
+#header {
+    font-size: medium;
+}
+
+.nav-link {
+    color: aliceblue;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+    background-color: brown;
+}
+
+@media (max-width: 992) {
+    #header {
+        background-color: darkblue;
+    }
+}
