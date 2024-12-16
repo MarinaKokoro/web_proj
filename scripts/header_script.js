@@ -1,17 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
     console.log(window.innerWidth);
 
-    window.addEventListener("scroll", function (e){
+    window.addEventListener("scroll", function (e) {
         console.log(this.window.scrollY);
-        if (this.window.innerWidth >= 992){
-            if ((this.window.scrollY >0)){
+        if (this.window.innerWidth >= 992) {
+            if ((this.window.scrollY > 0)) {
                 document.getElementById("header").style.backgroundColor = "#050613";
             }
-            else{
+            else {
                 document.getElementById('header').style.backgroundColor = "#05061300";
             }
         }
-    })
+    });
 
     //навели мышь
     document.getElementById("devops").addEventListener("mouseover", function (event) {

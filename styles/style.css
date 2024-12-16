@@ -1,5 +1,9 @@
 body {
+<<<<<<< Updated upstream
   font-family: 'Montserrat';
+=======
+  font-family: 'Montserrat'; /*зачем менять на шрифт с засечками?*/
+>>>>>>> Stashed changes
   font-weight: 500;
   font-size: 16px;
   padding: 0;
