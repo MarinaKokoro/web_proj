@@ -10,13 +10,13 @@
 
 .nav-link, .nav-link:hover, .navbar {
     color: aliceblue;
-    --bs-navbar-active-color:: aliceblue;
+    --bs-navbar-active-color: aliceblue;
 }
 
 
 .dropdown-menu {
     border-radius: 0;
-    background-color: brown;
+    background-color: #f14d34;
 }
 
 @media screen and (max-width: 992px) {

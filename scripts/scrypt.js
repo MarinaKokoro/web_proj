@@ -35,10 +35,10 @@ form.addEventListener('submit', async (e) => {
     const formData = new FormData(form);
 
     try {
-        const response = await fetch('https://formcarry.com/s/g7ga5yAahTs', {
-            method: 'POST',
-            body: formData,
-        });
+        const response = await fetch('https://formcarry.com/s/_3sdp1X6O-p', {
+					method: 'POST',
+					body: formData,
+				})
 
             resultDiv.textContent = 'Заявка успешно отправлена!';
             clearFormData();
