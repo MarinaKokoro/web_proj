@@ -129,17 +129,29 @@
       </div>
     </header>
 
-     <div id="video-block">
+     <!--div id="video-block">
         <div id="video-filter"></div>
         <video class="video-background"
           src="https://res.cloudinary.com/dpyzh619e/video/upload/v1606770179/video_bjr0b7.mp4" playsinline=""
           autoplay="autoplay" loop="" preload="auto" muted="">
         </video>
-      </div>
+      </div-->
+      
+      
 
-      <div class="container header">
+      <div class="container-fluid header">
+        <video autoplay muted loop id="myVideo" style="position: absolute;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+            ">
+          <source src="./sources/header_background.mp4" type="video/mp4">
+        </video>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-1 col-lg-2"></div>
+          <div class="col-md-5 col-lg-4">
             <h1 class="bars-title">
               Поддержка<br>сайтов на Drupal
             </h1>
@@ -149,7 +161,7 @@
             </div>
             <a href="#rates" class="rate-button">ТАРИФЫ (Исправить)</a>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-5 col-lg-4">
             <div class="row redline-text-blocks">
               <div class="col-sm-4 col-6 redline-box">
                 <div class="redline">

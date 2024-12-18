@@ -159,6 +159,7 @@ body {
 .slick-next:focus,
 .slick-next:active {
     background-image: url('./../sources/arrow-right.jpg') !important;
+    
 }
 
 .slick-prev:before,
