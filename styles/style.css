@@ -48,7 +48,7 @@ body:before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url(./source/druplicon.svg) no-repeat center top;
+  background: url(../sources/druplicon.svg) no-repeat center top;
   background-size: contain;
 }
 
@@ -197,6 +197,8 @@ body:before {
 
 .main{
     margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 @media screen and (min-width: 768px) {
   .main{
