@@ -200,6 +200,12 @@ body:before {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+#tasks{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
 @media screen and (min-width: 768px) {
   .main{
     margin-top: 65px;
