@@ -3,7 +3,7 @@ body{
     
 }
 
-.namer{
+.namer, .namer h2{
     line-height: 1;
     font-weight: bold;
     font-size: 40px;
@@ -88,7 +88,7 @@ img.competences-img{
     font-size: 20px;
 }
 
-.naming{
+.naming, .naming h2{
     text-align: center;
     padding: 10px;
 }
@@ -194,7 +194,7 @@ img.competences-img{
     .col-xs-6{
         width: 50%;
     }
-    .namer{
+    .namer, .namer h2{
         font-size: 30px;
         
     }
